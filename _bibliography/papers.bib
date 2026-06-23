@@ -1,115 +1,211 @@
----
----
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@article{gao2026maximal,
+  title = {Maximal Balanced Quasi-Clique Enumeration in Signed Graphs},
+  author = {Gao, Jie and Hu, Jia and Hao, Fei and Min, Geyong and Liu, Lei},
+  journal = {ACM Transactions on Knowledge Discovery from Data},
+  volume = {20},
+  number = {5},
+  year= {2026},
+  preview= {2026_TKDD.jpg},
+  abbr = {TKDD},
+  sequence = {J9},
+  abstract = {Quasi-clique is one of the most fundamental models for characterizing cohesive subgraphs in network analysis. However, existing quasi-clique definitions and identification algorithms are designed for unsigned graphs, while many real-world networks are modeled as signed graphs with positive and negative edges representing cooperative and adversarial interactions between entities. Therefore, it remains an open problem to define a quasi-clique model tailored for signed graphs. Motivated by this, we propose the maximal balanced quasi-clique (MBQC) model, which not only preserves the essence of quasi-completeness but also aligns with the foremost structural balance theory for signed graphs. Specifically, we formulate the problem of MBQCs enumeration in a given signed graph and prove its NP-hardness. To address this problem, we devise a novel branch-and-bound algorithm to efficiently enumerate all MBQCs in a signed graph, which is further optimized with several carefully-crafted techniques to prune unpromising search spaces and enhance enumeration efficiency. Extensive experiments on real-world datasets demonstrate the efficiency, scalability, and effectiveness of our MBQC model and algorithms.},
+  pdf = {https://dl.acm.org/doi/10.1145/3806834},
+  selected = {true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@inproceedings{gao2026sgexplainer,
+title = {SGExplainer: Balanced Path-Based Signed Graph Neural Network Explanation for Link Sign Prediction},
+author = {Gao, Jie and Hu, Jia and Min, Geyong and Hao, Fei},
+booktitle = {Proceedings of the ACM Web Conference 2026},
+pages = {638–649},
+year = {2026},
+isbn = {9798400723070},
+numpages = {12},
+location = {United Arab Emirates},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+preview={2026_WWW_1.png},
+abbr = {TheWebConf'26},
+sequence = {C6},
+abstract = {Signed Graph Neural Networks (SGNNs) have achieved outstanding performance in Link Sign Prediction (LSP), which involves predicting the existence and polarity of edges, by effectively modeling positive and negative interactions in signed graphs. However, their black-box nature raises transparency concerns, necessitating faithful explanations of model behavior to ensure trustworthiness and accountability. Existing eXplainable GNN (XGNN) methods, primarily designed for unsigned graphs, struggle to provide meaningful and human-understandable explanations for SGNN-based LSP, often generating disconnected subgraph explanations or neglecting the unique sign interactions. To address the gap, we propose SGExplainer, a novel method that leverages balanced paths, a concept rooted in signed graph theory, to provide clear and faithful explanations for LSP. SGExplainer employs a path-enforcing mask learning framework that ensures interpretable balanced path generation while maintaining explanation fidelity. Extensive experiments on real-world signed graphs demonstrate that SGExplainer consistently provides faithful and intuitive explanations for various SGNNs, outperforming state-of-the-art baselines in explanation quality, interpretability, and efficiency.},
+pdf = {https://doi.org/10.1145/3774904.3792146},
+selected = {true}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+
+
+@inproceedings{yang2026dir,
+  title={Dir-GD: Directed Graph Distillation},
+  author={Yang, Ce and Hao, Fei and Gao, Jie and Chen, Jianrui and Hu, Jia and Min, Geyong},
+  booktitle={Proceedings of the ACM Web Conference 2026},
+  pages={674--683},
+  year={2026},
+  abbr = {TheWebConf'26},
+  sequence = {C5},
+  pdf = {https://doi.org/10.1145/3774904.3792162},
+  selected = {false}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+
+@article{gao2025xdgnn,
+  title={XDGNN: Efficient Distributed GNN Training via Explanation-Guided Subgraph Expansion},
+  author={Gao, Jie and Hu, Jia and Min, Geyong and Hao, Fei},
+  journal={IEEE Transactions on Parallel and Distributed Systems},
+  year={2025},
+  volume={36},
+  number={11},
+  pages={2354-2365},
+  publisher={IEEE},
+  preview={2025_TPDS.png},
+  abbr = {TPDS},
+  sequence = {J8},
+  abstract = {Graph neural network (GNN) is a state-of-the-art technique for learning structural information from graph data. However, training GNNs on large-scale graphs is very challenging due to the size of real-world graphs and the message-passing architecture of GNNs.
+  One promising approach for scaling GNNs is distributed training across multiple accelerators, where each accelerator holds a partitioned subgraph that fits in memory to train the model in parallel.
+  Existing distributed GNN training methods require frequent and prohibitive embedding exchanges between partitions, leading to substantial communication overhead and limited the training efficiency.
+  To address this challenge, we propose XDGNN, a novel distributed GNN training method that eliminates the forward communication bottleneck and thus accelerates training.
+  Specifically, we design an explanation-guided subgraph expansion technique that incorporates important structures identified by eXplanation AI (XAI) methods into local partitions, mitigating information loss caused by graph partitioning.
+  Then, XDGNN conducts communication-free distributed training on these self-contained partitions through training the model in parallel without communicating node embeddings in the forward phase.
+  Extensive experiments demonstrate that XDGNN significantly improves training efficiency while maintaining the model accuracy compared with current distributed GNN training methods.},
+  pdf = {https://ieeexplore.ieee.org/document/11159171},
+  selected = {true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
+
+
+@article{zhang2025real,
+  title={Real-Time Distributed Charging Station Recommendation for Electric Vehicles: A Federated Meta-RL Approach},
+  author={Zhang, Yongchao and Hu, Jia and Min, Geyong and Gao, Jie and Georgalas, Nektarios},
+  journal={IEEE Transactions on Mobile Computing},
+  year={2025},
+  publisher={IEEE},
+  abbr = {TMC},
+  sequence = {J7}
 }
 
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
+
+@article{wang2025maximal,
+  title={Maximal Hypercliques Search Based on Concept-Cognitive Learning},
+  author={Wang, Jiawei and Hao, Fei and Gao, Jie and Zou, Li and Pei, Zheng},
+  journal={International Journal of Approximate Reasoning},
+  volume={180},
+  pages={109386},
+  year={2025},
+  publisher={Elsevier},
+  abbr = {IJAR},
+  sequence = {J6}
 }
 
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
+
+@inproceedings{zhang2025monitoring,
+  title={Monitoring Political Polarization Based on Multi-Layer Signed Network Analysis},
+  author={Zhang, Jiaqi and Hao, Fei and Gao, Jie and Shi, Lei and Li, Peng},
+  booktitle={2025 IEEE International Symposium on Parallel and Distributed Processing with Applications (ISPA)},
+  pages={512--519},
+  year={2025},
+  abbr = {ISPA'25},
+  sequence = {C4},
+  organization={IEEE}
 }
 
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
+
+@article{hao2023exploring,
+  title={Exploring Invariance of Concept Stability for Attribute Reduction in Three-Way Concept Lattice: F. Hao et al.},
+  author={Hao, Fei and Gao, Jie and Bisogni, Carmen and Loia, Vincenzo and Pei, Zheng and Nasridinov, Aziz},
+  journal={Soft Computing},
+  volume={27},
+  number={2},
+  pages={723--735},
+  year={2023},
+  publisher={Springer},
+  abbr = {SC},
+  sequence = {J5}
 }
 
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+@article{hao2023concept,
+  title={Concept Stability Entropy: A Novel Group Cohesion Measure in Social Networks},
+  author={Hao, Fei and Gao, Jie and Lin, Yaguang and Wu, Yulei and Shang, Jiaxing},
+  journal={IEEE Transactions on Emerging Topics in Computing},
+  volume={12},
+  number={3},
+  pages={715--726},
+  year={2023},
+  publisher={IEEE},
+  abbr = {TETC},
+  sequence = {J4}
+}
+
+
+
+
+@article{hao2021stability,
+  title={Stability of Three-Way Concepts and Its Application to Natural Language Generation},
+  author={Hao, Fei and Gao, Jie and Bisogni, Carmen and Min, Geyong and Loia, Vincenzo and De Maio, Carmen},
+  journal={Pattern Recognition Letters},
+  volume={149},
+  pages={51--58},
+  year={2021},
+  publisher={Elsevier},
+  abbr = {PRL},
+  sequence = {J3}
+}
+
+@inproceedings{gao2021maximal,
+  title={Maximal Multipolarized Cliques Search in Signed Networks},
+  author={Gao, Jie and Hao, Fei and Min, Geyong and Cai, Zhipeng},
+  booktitle={Proceedings of the 44th international ACM SIGIR conference on research and development in information retrieval},
+  pages={2227--2231},
+  year={2021},
+  preview={2021_SIGIR.png},
+  abbr = {SIGIR'21},
+  sequence = {C3},
+  selected = {true}
+}
+
+@article{hao2021skyline,
+  title={Skyline ($\lambda$, k)-Cliques Identification from Fuzzy Attributed Social Networks},
+  author={Hao, Fei and Gao, Jie and Chen, Jianrui and Nasridinov, Aziz and Min, Geyong},
+  journal={IEEE Transactions on Computational Social Systems},
+  volume={9},
+  number={4},
+  pages={1075--1086},
+  year={2021},
+  publisher={IEEE},
+  abbr = {TCSS},
+  sequence = {J2}
+}
+
+@article{gao2021learning,
+  title={Learning Concept Interestingness for Identifying Key Structures from Social Networks},
+  author={Gao, Jie and Hao, Fei and Pei, Zheng and Min, Geyong},
+  journal={IEEE Transactions on Network Science and Engineering},
+  volume={8},
+  number={4},
+  pages={3220--3232},
+  year={2021},
+  publisher={IEEE},
+  abbr = {TNSE},
+  sequence = {J1}
+}
+
+@inproceedings{gao2020concept,
+  title={Concept Stability Based Isolated Maximal Cliques Detection in Dynamic Social Networks},
+  author={Gao, Jie and Hao, Fei and Yang, Erhe and Yang, Yixuan and Min, Geyong},
+  booktitle={International Conference on Green, Pervasive, and Cloud Computing},
+  pages={131--144},
+  year={2020},
+  organization={Springer},
+  abbr = {GPC'20},
+  sequence = {C2}
+}
+
+@inproceedings{yang2020entity,
+  title={Entity Spatio-Temporal Evolution Summarization in Knowledge Graphs},
+  author={Yang, Erhe and Hao, Fei and Gao, Jie and Wu, Yulei and Min, Geyong},
+  booktitle={2020 IEEE International Conference on Knowledge Graph (ICKG)},
+  pages={181--187},
+  year={2020},
+  organization={IEEE},
+  abbr = {ICKG'20},
+  sequence = {C1}
 }

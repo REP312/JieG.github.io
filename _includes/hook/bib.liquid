@@ -1,0 +1,11 @@
+{% if entry.sequence %}
+  {% assign sequence_prefix = entry.sequence | slice: 0 %}
+  {% if sequence_prefix == 'J' %}
+    {% assign sequence_class = 'publication-sequence-journal' %}
+  {% elsif sequence_prefix == 'C' %}
+    {% assign sequence_class = 'publication-sequence-conference' %}
+  {% else %}
+    {% assign sequence_class = '' %}
+  {% endif %}
+  <span class="publication-sequence {{ sequence_class }}">[{{ entry.sequence }}]</span>
+{% endif %}

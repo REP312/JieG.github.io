@@ -1,9 +1,42 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"TKDD":
+  url: https://dl.acm.org/journal/tkdd
+  color: "#3F6FC1"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"TheWebConf’26":
+  color: "#2F7D4F"
 
-"Vision":
-  color: "#009f36"
+"TPDS":
+  color: "#3F6FC1"
+
+"TMC":
+  color: "#3F6FC1"
+
+"IJAR":
+  color: "#3F6FC1"
+
+"ISPA’25":
+  color: "#2F7D4F"
+
+"SC":
+  color: "#3F6FC1"
+
+"TETC":
+  color: "#3F6FC1"
+
+"PRL":
+  color: "#3F6FC1"
+
+"SIGIR’21":
+  color: "#2F7D4F"
+
+"GPC’20":
+  color: "#2F7D4F"
+
+"ICKG’20":
+  color: "#2F7D4F"
+
+"TCSS":
+  color: "#3F6FC1"
+
+"TNSE":
+  color: "#3F6FC1"

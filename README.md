@@ -548,8 +548,11 @@ If you would like to improve documentation or fix a minor inconsistency or bug, 
 Our most active contributors are welcome to join the maintainers team. If you are interested, please reach out!
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+
 <!-- prettier-ignore-start -->
+
 <!-- markdownlint-disable -->
+
 <table>
   <tbody>
     <tr>
@@ -562,6 +565,7 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 </table>
 
 <!-- markdownlint-restore -->
+
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
